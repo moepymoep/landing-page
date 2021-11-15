@@ -2,7 +2,7 @@
   "name": "cos-performance-report",
   "version": "1.0.0",
   "scripts": {
-    "start": "parcel servce src/index.html",
+    "start": "parcel src/index.html",
     "build": "parcel build src/index.html --public-url ./",
     "format": "prettier --config .prettierrc '**/*.{json,ts,css,scss,md,html}' --write"
   },

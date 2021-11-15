@@ -2,23 +2,45 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.scss" />
+    <!--font von google-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
       rel="stylesheet" />
-    <link href="https://unpkg.com/normalize.css@8.0.1/normalize.css" rel="stylesheet" />
-    <link href="style.scss" rel="stylesheet" />
-
     <title>Timo Pankau</title>
   </head>
   <body>
-    <p>Hello World</p>
+    <div class="navbar">
+      <div class="logo">Timo Pankau</div>
+      <div class="navbar-items">
+        <a href="">About</a>
+        <a href="">Merch</a>
+        <a href="">Portfolio</a>
+        <a href="">Impressum</a>
+      </div>
+    </div>
 
-    <script src="main.js"></script>
+    <div class="header">
+      <img src="https://timopankau.com/wp-content/uploads/2017/05/timopankau175.jpg" alt="" />
+    </div>
+
+    <div class="tourbox">
+      <a
+        href="https://www.songkick.com/artists/8802479"
+        class="songkick-widget"
+        data-theme="dark"
+        data-other-artists="on"
+        data-track-button="on"
+        data-detect-style="true"
+        data-font-color="#000000"
+        data-locale="en"
+        >Timo Pankau tour dates</a
+      >
+      <script src="//widget.songkick.com/8802479/widget.js"></script>
+    </div>
   </body>
 </html>
