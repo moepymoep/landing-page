@@ -1,0 +1,16 @@
+{
+  "name": "cos-performance-report",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "parcel servce src/index.html",
+    "build": "parcel build src/index.html --public-url ./",
+    "format": "prettier --config .prettierrc '**/*.{json,ts,css,scss,md,html}' --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0",
+    "parcel": "^2.0.0",
+    "prettier": "^2.4.1"
+  }
+}
